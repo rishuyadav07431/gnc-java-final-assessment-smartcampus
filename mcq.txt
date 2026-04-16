@@ -1,0 +1,11 @@
+MCQ 1: Collections Design: B.
+ HashMap<Student, ArrayList<Course>> * Reasoning: A HashMap allows O(1) quick lookups for a specific student, and mapping them to an ArrayList easily stores the multiple courses they are enrolled in.  
+
+MCQ 2: Exception Handling Scenario: C. 
+Throw a custom exception like InvalidFeeException * Reasoning: Using custom exceptions for specific business logic errors (like a negative fee) makes the application much more maintainable and error-proof.  
+
+MCQ 3: Multithreading Use Case: B.
+ Use synchronized block or thread-safe collection * Reasoning: When multiple threads access and modify the same resource concurrently, synchronization is required to prevent data inconsistency and race conditions.  
+
+MCQ 4: OOP Design Decision: B.
+ Interface * Reasoning: An interface represents a strict "contract" that forces all implementing classes to define the calculateFee() method, allowing for polymorphic behavior.
